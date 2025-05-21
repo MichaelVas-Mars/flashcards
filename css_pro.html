@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Professional</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>CSS Professional</h1>
+  <!-- Flashcard 1 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 1</h2>
+      <p>How can you create a custom scrollbar using CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use `::-webkit-scrollbar`, `::-webkit-scrollbar-thumb`, and other vendor-specific pseudo-elements.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 2 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 2</h2>
+      <p>What is the difference between `fr` units and percentages in CSS Grid?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`fr` allocates available space proportionally; percentages are based on parent size regardless of space distribution.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 3 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 3</h2>
+      <p>Explain how `contain` and `content-visibility` can improve performance.</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`contain` isolates layout/rendering; `content-visibility: auto` skips rendering off-screen content.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 4 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 4</h2>
+      <p>How do CSS custom properties differ from preprocessor variables (e.g., in Sass)?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>CSS variables (`--var`) are dynamic and can be changed at runtime; Sass variables are static at compile time.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 5 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 5</h2>
+      <p>What’s the purpose of `@supports` in CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Used for feature detection: applies styles only if a browser supports a specific property/value.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 6 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 6</h2>
+      <p>How do logical properties improve CSS layout for internationalization?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>They abstract directions (e.g., `margin-inline-start`) to support LTR/RTL writing modes seamlessly.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 7 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 7</h2>
+      <p>How does `display: contents` affect the DOM and layout?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Removes the box of the element while keeping its children rendered; children act as if they are direct descendants of the parent.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 8 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 8</h2>
+      <p>Explain the difference between `auto-fill` and `auto-fit` in CSS Grid.</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`auto-fill` maintains empty columns; `auto-fit` collapses them when no content is present.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 9 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 9</h2>
+      <p>What’s the difference between `em` and `ex` units?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`em` is based on font size; `ex` is based on the x-height (height of lowercase letters).</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 10 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 10</h2>
+      <p>What are scroll snapping points and how are they implemented?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Implemented with `scroll-snap-type` on the container and `scroll-snap-align` on children for precise scroll positioning.</p>
+    </div>
+  </div>
+</div>
+  <!-- Flashcard 11 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 11</h2>
+      <p>What does the `accent-color` property control?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>It sets the color of UI controls like checkboxes, radio buttons, and range sliders.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 12 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 12</h2>
+      <p>What is the `:is()` pseudo-class used for?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Simplifies writing long selector groups: `:is(h1, h2, h3)` applies the same style to multiple elements.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 13 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 13</h2>
+      <p>How does `object-fit` differ from `background-size`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`object-fit` is used for replacing elements like <img>; `background-size` applies to background images.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 14 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 14</h2>
+      <p>How can you make a CSS animation run once and stay at the end frame?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use `animation-fill-mode: forwards;` with `animation-iteration-count: 1;`.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 15 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 15</h2>
+      <p>What is the difference between `overflow: hidden` and `clip`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`hidden` prevents scrollbars and cuts off overflow; `clip` is used in `overflow-clip-margin` or `clip-path` for precise clipping.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 16 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 16</h2>
+      <p>How does the `:has()` pseudo-class enhance interactivity?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>It selects a parent based on child conditions, e.g., `div:has(img)` targets divs that contain images.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 17 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 17</h2>
+      <p>What is `forced-color-adjust` used for?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Overrides system color schemes in forced color modes (e.g., Windows High Contrast).</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 18 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 18</h2>
+      <p>How can you visually hide an element but keep it accessible?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use `position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0);`</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 19 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 19</h2>
+      <p>What does `mix-blend-mode` do?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Determines how an element’s content blends with background content.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 20 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 20</h2>
+      <p>What is the purpose of `overscroll-behavior`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Prevents scroll chaining and bounce effects when scrolling reaches the edge.</p>
+    </div>
+  </div>
+</div>
+<!-- Flashcard 21 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 21</h2>
+      <p>What does `clip-path` do?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Defines a clipping region that determines what part of an element is visible.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 22 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 22</h2>
+      <p>How can `grid-template-areas` improve readability?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Allows you to name and visually layout grid areas in a way that resembles the final layout structure.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 23 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 23</h2>
+      <p>What is the default stacking context in CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Each root element and elements with `position` other than `static` and a `z-index` create stacking contexts.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 24 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 24</h2>
+      <p>How can you detect browser support for a CSS property?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use `@supports (property: value)` feature queries.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 25 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 25</h2>
+      <p>What’s the purpose of `appearance: none;`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Removes native styling from form controls for full customization.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 26 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 26</h2>
+      <p>What does `backdrop-filter` do?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Applies effects (like blur) to the area behind an element.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 27 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 27</h2>
+      <p>What’s the difference between `min-content` and `max-content` in Grid or Flex?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`min-content` is the smallest size without overflow; `max-content` is the size needed for full content display.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 28 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 28</h2>
+      <p>What’s the effect of `isolation: isolate` in a complex layout?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Prevents blending with parent/child layers by creating a new stacking context.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 29 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 29</h2>
+      <p>How does `writing-mode` affect layout direction?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Changes text and layout flow direction to support vertical or horizontal writing systems.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 30 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 30</h2>
+      <p>What is the benefit of `line-clamp` in modern CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Allows truncation of multiline text with ellipsis using only CSS.</p>
+    </div>
+  </div>
+</div>
+<!-- Flashcard 31 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 31</h2>
+      <p>How does `position: sticky` behave differently from `fixed`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`sticky` toggles between relative and fixed based on scroll position; `fixed` stays pinned to the viewport.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 32 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 32</h2>
+      <p>How does `aspect-ratio` simplify responsive design?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Preserves element proportions without needing padding hacks or JavaScript.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 33 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 33</h2>
+      <p>What is a CSS Houdini API?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Low-level APIs that let developers extend CSS engine behavior (e.g., custom paint, layout).</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 34 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 34</h2>
+      <p>What are inert elements in CSS/HTML?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Elements with `inert` attribute are excluded from keyboard/tab navigation and interaction.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 35 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 35</h2>
+      <p>How do container queries differ from media queries?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Container queries apply styles based on the size of a container, not the viewport.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 36 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 36</h2>
+      <p>What is `scroll-margin` used for?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Adds space before an element when it is brought into view via scroll.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 37 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 37</h2>
+      <p>Why might `will-change` hurt performance?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Overuse forces the browser to allocate memory and optimize unnecessarily.</p>
+    </div>
+  </div>
+</div>
+<!-- Flashcard 38 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 38</h2>
+      <p>What is the difference between `initial`, `inherit`, and `unset`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`initial`: default browser style, `inherit`: inherits from parent, `unset`: smart combo of both.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 39 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 39</h2>
+      <p>How can CSS variables be scoped?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>They inherit from their nearest ancestor with the variable defined, just like other inherited styles.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 40 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 40</h2>
+      <p>What is the difference between `::before` and `:before`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>`::before` is the correct modern syntax; `:before` is legacy but still works in most browsers.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 41 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 41</h2>
+      <p>How can you target dark mode users using CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use the media query `@media (prefers-color-scheme: dark) {}`.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 42 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 42</h2>
+      <p>What does `resize: both;` do?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Allows an element (like a <textarea>) to be resized in both width and height.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 43 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 43</h2>
+      <p>How does `pointer-events: none;` affect accessibility?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Disables mouse interaction, but content may still be read by screen readers.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 44 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 44</h2>
+      <p>What is the function of the `env()` function in CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Used to access environment variables like safe area insets on mobile devices.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 45 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 45</h2>
+      <p>How do you style native form controls consistently across browsers?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use `appearance: none;` and add custom styles; normalize with a CSS reset.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 46 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 46</h2>
+      <p>What does `caret-color` control?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Sets the color of the blinking text cursor in input fields.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 47 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 47</h2>
+      <p>What is the purpose of `scroll-behavior: smooth;`?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Enables smooth scrolling transitions when jumping to anchors or using scroll APIs.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 48 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 48</h2>
+      <p>How do you create a full-page background image that scales?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Use `background-size: cover; background-position: center;`.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 49 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 49</h2>
+      <p>What does `all: unset;` do?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Resets all inheritable and non-inheritable styles to their inherited or initial values.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Flashcard 50 -->
+<div class="flashcard-container">
+  <div class="flashcard">
+    <div class="front">
+      <h2>Question 50</h2>
+      <p>What’s the use of `@layer` in CSS?</p>
+    </div>
+    <div class="back">
+      <h2>Answer</h2>
+      <p>Controls CSS cascade by defining style layers, allowing better control over specificity and override order.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
